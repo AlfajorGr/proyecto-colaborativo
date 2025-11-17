@@ -1,0 +1,26 @@
+<table id="productos">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+    </tr>
+  </thead>
+  <tbody id="tabla-body"></tbody>
+</table>
+
+<script>
+  fetch('/api/productos')
+    .then(res => res.json())
+    .then(data => {
+      const tbody = document.getElementById('tabla-body');
+      data.forEach(p => {
+        const row = `<tr>
+          <td>${p.id}</td>
+          <td>${p.nombre}</td>
+          <td>${p.precio}</td>
+        </tr>`;
+        tbody.innerHTML += row;
+      });
+    });
+</script>
