@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-colaborativo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "colaborador.js",
+  "scripts": {
+    "test": "echo \"No hay tests todavía\" && exit 0",
+    "build": "echo \"Build realizado\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfajorGr/proyecto-colaborativo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlfajorGr/proyecto-colaborativo/issues"
+  },
+  "homepage": "https://github.com/AlfajorGr/proyecto-colaborativo#readme"
+}
