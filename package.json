@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AlfajorGr/proyecto-colaborativo/issues"
   },
-  "homepage": "https://github.com/AlfajorGr/proyecto-colaborativo#readme"
+  "homepage": "https://github.com/AlfajorGr/proyecto-colaborativo#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }
